@@ -1,7 +1,7 @@
 
 {
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 10%;
 }
 
 body {
@@ -10,26 +10,36 @@ body {
     background-repeat: repeat;
     background-position: 0 0;
     font-family: 'Open Sans', sans-serif;
-
-    font-size: 15px;
+ 
+    font-size: 5px;
     line-height: 1.50;
     color: #666666;
     background-color: #F5DEB3;
 }
 
-.page-wrapper {
+.boxed .page-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+   
     
-                position: relative;
-		top: 0px;	
-		left: 0px;	
-		right:0px;
+}
 
-		width: 1248px;
 
+/* Large devices (Large desktops 1200px and up) */
+@media (min-width:1200px) {
+    .boxed .page-wrapper {
+        width: 1100px;
+		height: 205px;
+    }
+}
+
+.page-wrapper {
+     
 		margin:auto;
-              
+            
 		background:url('../images/fonsoti.gif') repeat top left;
-
+background-position: center top;
   -webkit-touch-callout: none;
     -webkit-user-select: none;
      -khtml-user-select: none;
@@ -40,12 +50,12 @@ body {
 }
 
 .body-img{
-    height: 200px;
-    overflow: hidden;
+    height: 250px;
+    
 }
 
 .block-heading {
-    margin: auto;
+    
     text-align: center;
     background:url('../images/fonsoti.gif') repeat top left;
 
@@ -54,7 +64,7 @@ div span a {color:black}
 
 @font-face {
   font-family: 'Noto Sans';
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
   src: url('../fonts/Noto-Sans-regular/Noto-Sans-regular.eot');
   src: url('../fonts/Noto-Sans-regular/Noto-Sans-regular.eot?#iefix') format('embedded-opentype'),
@@ -130,8 +140,7 @@ h1, h2, h3 {
 }
 
 h1 {
-   background: url(images/text.png) no-repeat; /* Фоновый рисунок для замены текста */
-   padding-top: 0px; /* Высота изображения */
+   
 }
 
 h2 {
@@ -167,7 +176,7 @@ a:hover small {
 
 .wrapper {
   width:1248px;
-  margin:0 auto;
+  margin-top:20;
   
   
 }
@@ -285,16 +294,17 @@ header ul a strong {
 
 section {
   
-  width:1195px;
+  width:1045px;
   height:600px;
   padding-bottom:50px;
   padding-top:50px;
   background: #F5DEB3;
-  padding-left: 25px; 
-  padding-right:25px; 
+  padding-left: 35px; 
+  padding-right:15px; 
   border: solid 2px orange; 
   text-align: left;
-  margin:auto;
+  margin-left:155px;
+  margin-top: 30px;
   
 }
 
@@ -310,9 +320,9 @@ hr {
 }
 
 footer {
-  width:270px;
-  float:left;
-  position:fixed;
+  width:500px;
+  float:right;
+  
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
