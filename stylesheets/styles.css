@@ -1,7 +1,7 @@
 
 {
-    width: 10%;
-    height: 10%;
+    width: 100%;
+    height: 100%;
 }
 
 body {
@@ -16,51 +16,6 @@ body {
     color: #666666;
     background-color: #F5DEB3;
 }
-
-.boxed .page-wrapper {
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-   
-    
-}
-
-
-/* Large devices (Large desktops 1200px and up) */
-@media (min-width:1200px) {
-    .boxed .page-wrapper {
-        width: 1100px;
-		height: 205px;
-    }
-}
-
-.page-wrapper {
-     
-		margin:auto;
-            
-		background:url('../images/fonsoti.gif') repeat top left;
-background-position: center top;
-  -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-         -o-user-select: none;
-            user-select: none;
-}
-
-.body-img{
-    height: 250px;
-    
-}
-
-.block-heading {
-    
-    text-align: center;
-    background:url('../images/fonsoti.gif') repeat top left;
-
-}
-div span a {color:black}
 
 @font-face {
   font-family: 'Noto Sans';
@@ -140,14 +95,18 @@ h1, h2, h3 {
 }
 
 h1 {
-   
+	font-family: dearjoe;
+    color:#FFA500;
 }
 
 h2 {
-  /*color:#393939;*/
-   background: url(images/text.png) no-repeat;
-   padding-top: 28px;
-   margin-bottom: 0;
+  
+        font-size:1.6em;
+        color:#FFA500;
+        letter-spacing:5px;
+        text-align:center;
+		text-decoration:underline;
+		font-family: Monotype corsiva;
 }
 
 h3, h4, h5, h6 {
